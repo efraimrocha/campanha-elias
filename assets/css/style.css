@@ -30,7 +30,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 35rem;
+  height: 30rem;
   overflow: inherit;
 }
 
@@ -149,9 +149,10 @@ body {
 footer {
   width: 100%;
   height: 5vh;
+  font-size: small;
   background-color: #DE0202;
   color: whitesmoke;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   position: fixed;
@@ -159,9 +160,13 @@ footer {
 
 }
 
+#back-to-top {
+  text-decoration: none;
+  color: #ffffff;
+}
 #footer-text {
   display: contents;
-  margin: 25%;
+  margin: 40% 40%;
   align-items: flex-start;
   justify-content: center;
 }
@@ -186,7 +191,7 @@ footer {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 0.2rem;
   }
 }
 
